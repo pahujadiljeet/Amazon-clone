@@ -26,6 +26,7 @@
 }
 .border:hover{
     border: 1.5px solid white;
+    
 }
 
 /** box 2 **/
@@ -109,3 +110,54 @@ span {
     font-size: 0.85rem;
     font-weight: 700;
 }
+
+/** panel **/
+
+.panel {
+    height: 40px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-opt p {
+    display: inline;
+    margin: 8px;
+}
+.panel-opt {
+    width: 85%;
+    font-size: 0.87rem;
+}
+.panel-deals {
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+/** hero section **/
+
+.hero-section {
+    background-image: url(hero_1.jpg);
+    height: 300px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-msg {
+    color: black;
+    background-color: white;
+    width: 90%;
+    height: 30px;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+.hero-msg a {
+    color: #007185;
+}
+
